@@ -1,0 +1,44 @@
+# DSPBL化合物分析プロジェクト用 .gitignore
+
+*.tsv
+*.csv
+*.xlsx
+
+*.local
+
+# Jupyter関連（よく生成される）
+.ipynb_checkpoints/
+
+# Python関連（実行時に生成）
+__pycache__/
+*.pyc
+
+# 一時ファイル
+*.tmp
+*.log
+
+# Claude関連
+.claude/
+
+# ChemProp関連（機械学習モデル・チェックポイント）
+chemprop_checkpoint/
+chemprop_improved/
+chemprop_enhanced/
+predictions*.csv
+*_enhanced.csv
+*.pth
+*.pt
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.pdf
