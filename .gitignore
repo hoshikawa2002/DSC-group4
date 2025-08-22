@@ -1,8 +1,3 @@
-# DSPBL化合物分析プロジェクト用 .gitignore
-
-*.tsv
-*.csv
-*.xlsx
 
 *.local
 
@@ -20,15 +15,6 @@ __pycache__/
 # Claude関連
 .claude/
 
-# ChemProp関連（機械学習モデル・チェックポイント）
-chemprop_checkpoint/
-chemprop_improved/
-chemprop_enhanced/
-predictions*.csv
-*_enhanced.csv
-*.pth
-*.pt
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -41,4 +27,4 @@ predictions*.csv
 *.sw?
 
 .env
-.pdf
+*.pdf
