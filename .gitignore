@@ -28,3 +28,21 @@ __pycache__/
 
 .env
 *.pdf
+
+# Large data files
+*.csv
+*.tsv
+*.xlsx
+*.pkl
+
+# Model files and checkpoints
+*/model.pt
+*/events.out.tfevents.*
+
+# Hyperopt results
+hyperopt_results/
+
+# Model directories
+chemprop_checkpoint/
+ensemble_model_*/
+optimized_model/

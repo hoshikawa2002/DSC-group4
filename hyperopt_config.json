@@ -1,0 +1,24 @@
+{
+  "data_path": "train_advanced.csv",
+  "separate_val_path": "val_advanced.csv",
+  "dataset_type": "regression",
+  "save_dir": "hyperopt_results",
+  "features_path": [
+    "train_features.csv"
+  ],
+  "separate_val_features_path": [
+    "val_features.csv"
+  ],
+  "num_iters": 20,
+  "epochs": 100,
+  "search_parameter_keywords": [
+    "batch_size",
+    "depth",
+    "dropout",
+    "ffn_hidden_size",
+    "ffn_num_layers",
+    "hidden_size",
+    "learning_rate"
+  ],
+  "seed": 42
+}
